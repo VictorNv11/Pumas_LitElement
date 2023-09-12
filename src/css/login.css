@@ -1,0 +1,30 @@
+:root{
+    --primary-color: #ff0404;
+}
+
+.bg-pumas{
+    background-color: var(--primary-color);
+}
+
+.bg-pumas:hover{
+    background-color: var(--primary-color);
+}
+.login{
+    /*width: 50%;*/
+    height: 100vh;
+}
+
+#login .card{
+    width: 60vh;
+    border-radius: 5%;
+    box-shadow: -5px 5px 5px 5px gray;
+}
+
+#login .card-body{
+    padding: 3rem 2rem;
+}
+#login .form-control{
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    border-radius: 0%;
+}

@@ -1,0 +1,115 @@
+
+:root{
+    --primary-color: #ff0404;
+}
+
+.bg-pumas{
+    background-color: var(--primary-color);
+}
+
+
+
+/* Dashboard */
+
+
+/* Dashboard header */
+
+header{
+    width: 100%;
+}
+
+.dashboard-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-header .userg{
+    background-color: var(--primary-color);
+    width: 30%;
+    border-radius: 0% 180% 15% 146% / 100% 0% 77% 0%;
+}
+
+.dashboard-header .user{
+    background-color: white;
+    display: flex;
+    margin: 5%;
+    padding: 0% 0% 0% 0%;
+    border-radius: 50% 180% 15% 50% / 100% 0% 77% 100%;
+    width: 80%;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.dashboard-header .user .img-user{
+    border-radius: 50%;
+    padding: 0%;
+}
+
+.dashboard-header button{
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Menú lateral */
+
+aside{
+    background-color: rgb(165, 165, 165);
+    width:20%;
+    height: 100vh;
+    position: fixed;
+    top: 30;
+    left: 0;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+aside .nav-link{
+    background-color: white;
+    margin: 2%;
+    border-radius: 6%;
+    padding-left: 5%;
+}
+
+aside .nav-link i{
+    margin-right: 5%;
+}
+
+/* Contenido */ 
+
+main {
+    width: 80%;
+    margin: 2% 20%;
+}
+
+main .card{
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+/* Solicitudes */ 
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Actas */
+.t-border{
+    border:.4rem solid #e9ecef!important;
+}
+
+.table{
+    width: 96%;
+}
